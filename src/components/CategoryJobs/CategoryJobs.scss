@@ -1,0 +1,53 @@
+.jobCategory {
+    padding: 4rem 6rem;
+    padding-bottom: 0;
+
+    .jobCategory__title {
+        text-align: center;
+
+    }
+
+    .jobCategory__slogan {
+        text-align: center;
+        color: gray;
+        margin: 1rem 0;
+    }
+
+
+    .jobCategory__container {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .jobCategory__job {
+            background-color: #f9f8ff;
+            //background-color: #6c5bce;
+            border-radius: 10px;
+
+            padding: 2rem 3rem 2rem 2rem;
+        }
+
+        .jobCategory__job-icon {
+
+            img {
+                background-color: #edefff;
+                padding: 1rem;
+                border-radius: 6px;
+
+            }
+        }
+
+        .jobCategory__job-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+
+        .jobCategory__job-totalJobs {
+            font-size: 0.9rem;
+            font-weight: 300;
+            color: gray;
+        }
+    }
+}
