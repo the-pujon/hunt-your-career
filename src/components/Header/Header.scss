@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    padding: 2rem 6rem;
+    background-color: rgb(249, 249, 255);
+
+
+    .header__container {
+        flex: 1;
+        width: 200rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+
+
+        .header__container-title {
+            font-size: 4rem;
+            font-weight: bold;
+
+            span {
+                color: #7E90FE;
+            }
+        }
+
+        .header__container-p {
+            width: 30rem;
+            color: gray;
+            font-size: 1.2rem;
+        }
+
+        .header__container-button {
+            padding: 1rem 2rem;
+            background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all .5s;
+
+            &:active {
+                transform: scale(.9);
+            }
+        }
+    }
+
+
+
+    .header__image {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        img {
+            width: 35rem;
+        }
+    }
+
+}
