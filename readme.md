@@ -13,3 +13,5 @@
 <li>Re-charts
 <li>JSON
 <li>ImgDB
+
+<a href="https://chipper-croissant-df6b59.netlify.app/">Click Here for live preview</a>
