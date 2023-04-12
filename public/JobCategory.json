@@ -1,26 +1,26 @@
 [
     {
         "id": "1",
-        "icon": "../src/assets/Icons/accounts.png",
+        "icon": "https://i.ibb.co/QKr6PT8/accounts.png",
         "name": "Accounts & Finance",
         "totaljobs": "300"
     },
     {
         "id": "2",
-        "icon": "../src/assets/Icons/accounts.png",
-        "name": "Accounts & Finance",
-        "totaljobs": "300"
+        "icon": "https://i.ibb.co/fYBZy33/creative.png",
+        "name": "Creative Design",
+        "totaljobs": "100"
     },
     {
         "id": "3",
-        "icon": "../src/assets/Icons/accounts.png",
-        "name": "Accounts & Finance",
-        "totaljobs": "300"
+        "icon": "https://i.ibb.co/C2B7wVD/engineering.png",
+        "name": "Engineering Job",
+        "totaljobs": "224"
     },
     {
         "id": "4",
-        "icon": "../src/assets/Icons/accounts.png",
-        "name": "Accounts & Finance",
-        "totaljobs": "300"
+        "icon": "https://i.ibb.co/gyYXXRH/marketing.png",
+        "name": "Marketing & Sales",
+        "totaljobs": "150"
     }
 ]

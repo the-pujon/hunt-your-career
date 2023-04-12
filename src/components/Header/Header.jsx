@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Header.scss";
 
-import HeaderImage from "../../assets/Images/headerImg.png";
+import HeaderImage from "../../assets/headerImg.png";
 
 const Header = () => {
   return (
