@@ -1,0 +1,28 @@
+.blog {
+
+
+    .blog__title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f9f9ff;
+        height: 20rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .question__ans {
+        padding: 1rem 6rem;
+
+        .blog__question {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .blog__ans {
+            color: gray;
+            margin-left: 1rem;
+        }
+    }
+}

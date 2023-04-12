@@ -9,11 +9,13 @@ import AppliedJobs from "./pages/AppliedJobs/AppliedJobs";
 import Blog from "./pages/Blog/Blog";
 import "./index.scss";
 import JobDetails from "./components/JobDetails/JobDetails";
+import Error from "./pages/Error/Error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    errorElement: <Error />,
     children: [
       {
         path: "/",
