@@ -64,8 +64,7 @@ const Statistics = () => {
 
   return (
     <div>
-      statistics
-      {/*<RadarChart outerRadius={200} width={1200} height={530} data={data}>
+      <RadarChart outerRadius={200} width={1200} height={530} data={data}>
         <PolarGrid />
         <PolarAngleAxis dataKey="subject" />
         <PolarRadiusAxis angle={30} domain={[0, 60]} />
@@ -79,7 +78,7 @@ const Statistics = () => {
 
         <Legend />
         <Tooltip />
-      </RadarChart>*/}
+      </RadarChart>
     </div>
   );
 };
