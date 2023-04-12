@@ -20,11 +20,11 @@
     },
     {
         "id": "2",
-        "logo": "../src/assets/Images/google.png",
-        "jobTitle": "Technical Database Engineer",
+        "logo": "../src/assets/Images/netflix.png",
+        "jobTitle": "Senior Product Designer",
         "company": "Google LLC",
         "jobType": [
-            "Remote",
+            "Onsite",
             "Full Time"
         ],
         "location": "Dhaka, Bangladesh",
@@ -39,11 +39,11 @@
     },
     {
         "id": "3",
-        "logo": "../src/assets/Images/google.png",
-        "jobTitle": "Technical Database Engineer",
-        "company": "Google LLC",
+        "logo": "../src/assets/Images/tesla.png",
+        "jobTitle": "Software Engineer",
+        "company": "Tesla",
         "jobType": [
-            "Remote",
+            "Onsite",
             "Full Time"
         ],
         "location": "Dhaka, Bangladesh",
@@ -58,11 +58,11 @@
     },
     {
         "id": "4",
-        "logo": "../src/assets/Images/google.png",
-        "jobTitle": "Technical Database Engineer",
-        "company": "Google LLC",
+        "logo": "../src/assets/Images/airnb.png",
+        "jobTitle": "Lead Software Engineer",
+        "company": "airnb",
         "jobType": [
-            "Remote",
+            "Onsite",
             "Full Time"
         ],
         "location": "Dhaka, Bangladesh",

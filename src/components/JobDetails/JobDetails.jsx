@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
 import { AiOutlineDollarCircle, AiOutlineMail } from "react-icons/ai";
@@ -7,10 +7,15 @@ import { CiLocationOn } from "react-icons/ci";
 
 import "./JobDetails.scss";
 
+let arr = [];
 const JobDetails = () => {
+  const [jobs, setJobs] = useState([]);
+  const [store, setStore] = useState([]);
+
   const { state } = useLocation();
 
   const {
+    id,
     salary,
     jobTitle,
     description,
@@ -21,6 +26,43 @@ const JobDetails = () => {
     email,
     address,
   } = state.job;
+
+  //useEffect(() => {
+  //  const getJobs = JSON.parse(localStorage.getItem("jobId"));
+
+  //  if (getJobs) {
+  //    setStore(getJobs);
+  //  }
+  //}, []);
+
+  //const handleApply = (idd) => {
+  //  const exist = store.find((id) => id === idd);
+  //  //console.log(exist);
+  //  let a = [];
+
+  //  if (!exist) {
+  //    console.log("need no");
+  //    a = [...store, idd];
+  //  } else {
+  //    console.log("need");
+  //  }
+  //  setStore(a);
+  //  localStorage.setItem("jobId", JSON.stringify(store));
+  //};
+  const handleApply = (item) => {
+    // Check if the item already exists in local storage
+    const existingItems = JSON.parse(localStorage.getItem("myData")) || [];
+    if (existingItems.find((i) => i === item)) {
+      // Item already exists, don't save again
+      return;
+    }
+
+    // Add the item to the local storage array
+    const newItems = [...existingItems, item];
+    localStorage.setItem("myData", JSON.stringify(newItems));
+  };
+
+  //console.log(jobs);
 
   return (
     <div className="jobDetails">
@@ -80,7 +122,9 @@ const JobDetails = () => {
               {address}
             </div>
           </div>
-          <button className="apply__button">Apply Button</button>
+          <button className="apply__button" onClick={() => handleApply(id)}>
+            Apply Button
+          </button>
         </div>
       </div>
     </div>
