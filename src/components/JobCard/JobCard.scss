@@ -1,0 +1,92 @@
+.jobCard {
+    padding: 2rem;
+    border: 1px gray dotted;
+    border-radius: 5px;
+
+
+    .jobCard__logo {
+
+        margin-bottom: 1rem;
+
+        img {
+            width: 8rem;
+        }
+    }
+
+    .jobCard__container {
+        display: flex;
+        flex-direction: column;
+        gap: .7rem;
+
+        .jobCard__title {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .jobCard__company {
+            font-size: 1.2rem;
+            color: gray;
+        }
+
+        .jobCard__jobType {
+            display: flex;
+            gap: 1rem;
+
+            .type {
+                background-color: transparent;
+                color: #7E90FE;
+                border: 2px solid #6377f6;
+                border-radius: 10px;
+                padding: .7rem 2rem;
+                transition: all .5s;
+
+                &:hover {
+                    background-color: #6377f6;
+                    color: white;
+
+                }
+
+                &:active {
+                    transform: scale(.9);
+                }
+
+
+
+
+
+
+            }
+        }
+
+        .jobCard__details {
+            display: flex;
+            gap: 1rem;
+
+            .location,
+            .salary {
+                display: flex;
+                align-items: center;
+                color: gray;
+            }
+        }
+
+    }
+
+    .jobCard__button {
+        margin-top: 1rem;
+        padding: 1rem 2rem;
+        background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all .5s;
+
+        &:active {
+            transform: scale(.9);
+        }
+    }
+
+
+}

@@ -1,0 +1,43 @@
+.jobs {
+    padding: 4rem 6rem;
+    padding-bottom: 0;
+
+    .jobs__title {
+        text-align: center;
+
+    }
+
+    .jobs__slogan {
+        text-align: center;
+        margin: 1rem 0;
+        color: gray;
+    }
+
+    .jobs__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+
+    .button__div {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .job__button {
+            padding: 1rem 2rem;
+            background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all .5s;
+
+            &:active {
+                transform: scale(.9);
+            }
+        }
+    }
+}
