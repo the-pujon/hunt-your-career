@@ -50,7 +50,9 @@ const Footer = () => {
         </div>
         <hr />
         <div className="footer__finish">
-          <div className="copyright">@2023 CareerHub. All Rights Reserved</div>
+          <div className="copyright">
+            @2023 HuntYourCareer. All Rights Reserved
+          </div>
           <div className="credit">Powered by HuntYourCareer</div>
         </div>
       </div>
